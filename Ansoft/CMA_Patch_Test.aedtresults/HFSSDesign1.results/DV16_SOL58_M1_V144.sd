@@ -1,0 +1,58 @@
+$begin 'soln'
+	ObjectType='Terminal'
+	SolutionType='None'
+	MajorVersion=2
+	MinorVersion=0
+	Producer=''
+	Name=''
+	AdaptivePass=1
+	AllowMixedMode=false
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=915000000
+			DataType='None'
+			EnergyError=0.002694217225115501
+			IeEnergyError=0.002694217225115501
+			$begin 'ExtraHfssData'
+			$end 'ExtraHfssData'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'OtherStateSpaceModels'
+	$end 'OtherStateSpaceModels'
+	MultiTerminal=false
+	$begin 'Postprocessing'
+		NumPorts=0
+		MatrixSize=0
+		IsModal=false
+		DoRenorm=false
+		DoDeembed=false
+		UseZpiOnly=true
+		LosslessDeembed=true
+		ImpedMultiplier=1
+		Modes()
+		DoPortRenorm()
+		PortCharImpeds()
+		FoundFreqDependentRenorm=false
+	$end 'Postprocessing'
+	ModalData=true
+	PreferredImpedance='Zpi'
+	IeEnergyError=0
+	$begin 'CMAInfo'
+		NumOfPorts=0
+		NumOfLocalModes=2
+		NumOfGlobalModes=2
+		NumOfModelUnknown=12780
+		NumOfElectricUnknowns=12780
+		NumOfMagneticUnknowns=0
+		NumOfAntennaUnknowns=0
+		Freq=915000000
+		MinSignificance=0.02
+		LocalToGlobalModeNum[2: 0, 1]
+		LocalToDisplayModeNum[2: 0, 1]
+		EigenValue[2: -13.62401290785141, -13.76175716545551]
+		$begin 'ModeCoefficients'
+		$end 'ModeCoefficients'
+		$begin 'ModelYMatrices'
+		$end 'ModelYMatrices'
+	$end 'CMAInfo'
+$end 'soln'

@@ -1,0 +1,96 @@
+$begin 'DesignData'
+	Version=242
+	$begin 'PartsInfo'
+		Part(6, true, 'Sub1', true, 'Rogers TMM 4 (tm)', 6, 7, 9, 10, 11, 8, 12, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+	$end 'PartsInfo'
+	$begin 'FacesInfo'
+		Face(7, 6, 0.0123145, 443.922, true, 0, 0, 6, 0, 0, 1, 4, 0.0547475, -0.056233, 0.006, 0.0547475, 0.056233, 0.006, -0.0547475, 0.056233, 0.006, -0.0547475, -0.056233, 0.006)
+		Face(8, 6, 0.0123145, 443.922, true, 0, 0, 0, -0, -0, -1, 4, 0.0547475, -0.056233, 0, -0.0547475, -0.056233, 0, -0.0547475, 0.056233, 0, 0.0547475, 0.056233, 0)
+		Face(9, 6, 0.000656969, 230.99, true, 0, -56.233, 3, -0, -1, -0, 4, 0.0547475, -0.056233, 0.006, -0.0547475, -0.056233, 0.006, -0.0547475, -0.056233, 0, 0.0547475, -0.056233, 0)
+		Face(10, 6, 0.000674796, 236.932, true, -54.7475, 0, 3, -1, -0, -0, 4, -0.0547475, -0.056233, 0.006, -0.0547475, 0.056233, 0.006, -0.0547475, 0.056233, 0, -0.0547475, -0.056233, 0)
+		Face(11, 6, 0.000656969, 230.99, true, 0, 56.233, 3, 0, 1, 0, 4, -0.0547475, 0.056233, 0.006, 0.0547475, 0.056233, 0.006, 0.0547475, 0.056233, 0, -0.0547475, 0.056233, 0)
+		Face(12, 6, 0.000674796, 236.932, true, 54.7475, 0, 3, 1, 0, 0, 4, 0.0547475, 0.056233, 0, 0.0547475, 0.056233, 0.006, 0.0547475, -0.056233, 0.006, 0.0547475, -0.056233, 0)
+	$end 'FacesInfo'
+	$begin 'PartAddtionalPiecesInfo'
+		$begin 'Bodies'
+		$end 'Bodies'
+		$begin 'Faces'
+		$end 'Faces'
+	$end 'PartAddtionalPiecesInfo'
+	$begin 'DesignGeometryInfo'
+		ModelUnit='mm'
+		ModelerType=2
+		MinDimensionInModelUnits=1e-06
+		MaxDimensionInModelUnits=10000
+		GlobalCSID=1
+		RegionID=-1
+		PreprocessForwardIdStart=33
+		PreprocessForwardIdEnd=33
+		PreprocessBackwardIdStart=2147483647
+		PreprocessBackwardIdEnd=2147483647
+	$end 'DesignGeometryInfo'
+	$begin 'Point3DDefinitionInfo'
+	$end 'Point3DDefinitionInfo'
+	$begin 'Plane3DDefinitionInfo'
+		Plane(-4, 'Global:XY', 1, -1, true, 6881387, 0, 0, 0, 0, 0, 1)
+		Plane(-3, 'Global:YZ', 1, -1, true, 4980783, 0, 0, 0, 1, 0, 0)
+		Plane(-2, 'Global:XZ', 1, -1, true, 6881387, 0, 0, 0, 0, 1, 0)
+	$end 'Plane3DDefinitionInfo'
+	$begin 'CoordinateSystemInfo'
+		CoordinateSystem(1, 'Global', -1, false, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+	$end 'CoordinateSystemInfo'
+	$begin 'ComponentDefinitionInfo'
+	$end 'ComponentDefinitionInfo'
+	$begin 'ComponentInstanceInfo'
+	$end 'ComponentInstanceInfo'
+	$begin 'GeometryEntityListOperationInfo'
+		$begin 'EntityList'
+			ID=2
+			Name='AllObjects'
+			$begin 'GeometryEntityListParameters'
+				EntityType='Object'
+				EntityList(6)
+			$end 'GeometryEntityListParameters'
+		$end 'EntityList'
+	$end 'GeometryEntityListOperationInfo'
+	$begin 'MaterialManager'
+		$begin 'ProjectMaterials'
+			$begin 'Rogers TMM 4 (tm)'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=225
+						Blue=220
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='4.5'
+				dielectric_loss_tangent='0.002'
+			$end 'Rogers TMM 4 (tm)'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=230
+						Blue=230
+						Transparency=0.95
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='1'
+			$end 'vacuum'
+		$end 'ProjectMaterials'
+		$begin 'InternalPrivateMaterials'
+		$end 'InternalPrivateMaterials'
+	$end 'MaterialManager'
+$end 'DesignData'

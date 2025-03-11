@@ -1,0 +1,40 @@
+$begin 'ConnectionParameters'
+	DesktopProcessID=3132
+	DesktopProcessPath='C:\\Program Files\\AnsysEM\\v242\\Win64\\ansysedt.exe'
+	LaunchedByWB=false
+	GRPCPort=50051
+	$begin 'DesktopStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='192.168.2.196'
+			ListenPort='56657'
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=503
+			ProcID=3132
+			InterfaceID=1
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopStubBlock'
+	$begin 'DesktopBackgroundObjStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='192.168.2.196'
+			ListenPort='56657'
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=505
+			ProcID=3132
+			InterfaceID=2
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopBackgroundObjStubBlock'
+	$begin 'WebClientBlock'
+		Url='http://DESKTOP-FI42M7D:19677/?server=ws://DESKTOP-FI42M7D:19165&token=6ae28e1f-7fd2-a181-6ecc-8a39133c9650&startTab=monitor/graph'
+		SecureUrl='https://DESKTOP-FI42M7D:19933/?server=wss://DESKTOP-FI42M7D:19421&token=6ae28e1f-7fd2-a181-6ecc-8a39133c9650&startTab=monitor/graph'
+		WsHost='DESKTOP-FI42M7D'
+		WsPort=19165
+		WssPort=19421
+		Token='6ae28e1f-7fd2-a181-6ecc-8a39133c9650'
+	$end 'WebClientBlock'
+$end 'ConnectionParameters'
