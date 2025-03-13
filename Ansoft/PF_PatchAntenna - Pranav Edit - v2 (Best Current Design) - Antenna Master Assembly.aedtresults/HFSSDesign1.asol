@@ -1,63 +1,21 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002025, month=000000000003, day=000000000010, hour=000000000020, min=000000000053, sec=000000000049)
+    time(year=000000002025, month=000000000003, day=000000000012, hour=000000000023, min=000000000037, sec=000000000011)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000017357, lin=000000000439, lvl=000000000000)
+    $index$(pos=000000029573, lin=000000000633, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock1'
-	ProductName=''
-	CircuitName='HFSSDesign1'
-	VersionID=11664
-	PostProcess=false
-	LossLess=true
-	NextUniqueID=12058
-	MoveBackwards=false
-	$begin 'VariationIDs'
-		Map(V='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.072999770199999994meter\' $Patch_Width=\'0.1024706764meter\' $Substrate_Length=\'0.109494912meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.11246602meter\' $X_Offset=\'0.022395418390000001meter\'', ID=10695)
-	$end 'VariationIDs'
-	$begin 'LinkedDataList'
-	$end 'LinkedDataList'
-	$begin 'InitialMeshes'
-		M(VID=10695, Ver=11664, Dir='DV10695_V11664.imesh/')
-	$end 'InitialMeshes'
-	MeshAssemVersionID=34
-	$begin 'NextAssemVersionID'
-		NextUniqueID=35
-		MoveBackwards=false
-	$end 'NextAssemVersionID'
-	$begin 'DefinitionMeshes'
-		$begin 'DefMeshes_Comp-1'
-			DefinitionID=-1
-			VersionID=33
-			VIDMap('$Patch_Length=\'0.072999770199999994meter\' $Patch_Width=\'0.1024706764meter\' $Substrate_Length=\'0.109494912meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.11246602meter\' $X_Offset=\'0.022395418390000001meter\'', 10794)
-			DM(VID=10794, Ver=33, Dir='NDV10794_V33.dmesh/')
-		$end 'DefMeshes_Comp-1'
-	$end 'DefinitionMeshes'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=10695, Ver=11664, Dir='DV10695_MI0_V11664.sd/')
-		$end 'SubData'
-	$end 'MI'
-	VersionID2=11665
-$end 'SolutionBlock1'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=1560, Instance=\'SetupDefinition\', Solution=-1, VersionID=11664)'='SolutionBlock31'
-	'SolutionKey(SimSetup=1560, Instance=\'SolutionDefinition\', Solution=1561, VersionID=11795)'='SolutionBlock32'
-	'SolutionKey(SimSetup=1560, Instance=\'SolutionDefinition\', Solution=1562, VersionID=11795)'='SolutionBlock33'
-	'SolutionKey(SimSetup=1560, Instance=\'SolutionDefinition\', Solution=1565, VersionID=11795)'='SolutionBlock34'
-$end 'BlockMapName'
 $begin 'SolutionBlock32'
 	SolutionName='AdaptivePass'
 	SolutionID=1561
 	V=11795
 	$begin 'States'
 		F(VID=10695, Ver=11795)
+		F(VID=12217, Ver=11795)
+		F(VID=12241, Ver=11795)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -74,173 +32,262 @@ $begin 'SolutionBlock32'
 		$begin 'SubData'
 			ID=1
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M1_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M1_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M1_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=2
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M2_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M2_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M2_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=3
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M3_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M3_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M3_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=4
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M4_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M4_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M4_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=5
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M5_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M5_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M5_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=6
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M6_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M6_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M6_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=7
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M7_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M7_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M7_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=8
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M8_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M8_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M8_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=9
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M9_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M9_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M9_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=10
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M10_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M10_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M10_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=11
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M11_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M11_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M11_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=12
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M12_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M12_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M12_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=13
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M13_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M13_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M13_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=14
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M14_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M14_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M14_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=15
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M15_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M15_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M15_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=16
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M16_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M16_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M16_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=17
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M17_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M17_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M17_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=18
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M18_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M18_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M18_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=19
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M19_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M19_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M19_V11795.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=20
 			M(VID=10695, Ver=11795, File='DV10695_SOL1561_M20_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1561_M20_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1561_M20_V11795.sd')
 		$end 'SubData'
 	$end 'M'
 	$begin 'S'
 		$begin 'SubData'
 			ID=1
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S1_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S1_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S1_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=2
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S2_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S2_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S2_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=3
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S3_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S3_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S3_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=4
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S4_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S4_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S4_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=5
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S5_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S5_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S5_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=6
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S6_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S6_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S6_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=7
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S7_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S7_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S7_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=8
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S8_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S8_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S8_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=9
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S9_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S9_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S9_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=10
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S10_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S10_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S10_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=11
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S11_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S11_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S11_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=12
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S12_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S12_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S12_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=13
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S13_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S13_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S13_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=14
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S14_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S14_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S14_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=15
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S15_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S15_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S15_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=16
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S16_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S16_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S16_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=17
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S17_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S17_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S17_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=18
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S18_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S18_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S18_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=19
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S19_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S19_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S19_V11795.sd/')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=20
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1561_S20_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1561_S20_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1561_S20_V11795.sd/')
 		$end 'SubData'
 	$end 'S'
 $end 'SolutionBlock32'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=1560, Instance=\'SetupDefinition\', Solution=-1, VersionID=11664)'='SolutionBlock31'
+	'SolutionKey(SimSetup=1560, Instance=\'SolutionDefinition\', Solution=1561, VersionID=11795)'='SolutionBlock32'
+	'SolutionKey(SimSetup=1560, Instance=\'SolutionDefinition\', Solution=1562, VersionID=11795)'='SolutionBlock33'
+	'SolutionKey(SimSetup=1560, Instance=\'SolutionDefinition\', Solution=1565, VersionID=11795)'='SolutionBlock34'
+$end 'BlockMapName'
 $begin 'SolutionBlock33'
 	SolutionName='LastAdaptive'
 	SolutionID=1562
 	V=11795
 	$begin 'States'
 		F(VID=10695, Ver=11795)
+		F(VID=12217, Ver=11795)
+		F(VID=12241, Ver=11795)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -257,12 +304,16 @@ $begin 'SolutionBlock33'
 		$begin 'SubData'
 			ID=0
 			M(VID=10695, Ver=11795, File='DV10695_SOL1562_M0_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1562_M0_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1562_M0_V11795.sd')
 		$end 'SubData'
 	$end 'M'
 	$begin 'S'
 		$begin 'SubData'
 			ID=0
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1562_S0_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1562_S0_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1562_S0_V11795.sd/')
 		$end 'SubData'
 	$end 'S'
 	$begin 'Fields'
@@ -272,6 +323,16 @@ $begin 'SolutionBlock33'
 			Ver=11795
 			F(DblID=10799, Dir='DV10695_S1562_V11795_F10799/')
 		$end 'DataMap'
+		$begin 'DataMap'
+			VID=12217
+			Ver=11795
+			F(DblID=10799, Dir='DV12217_S1562_V11795_F10799/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=12241
+			Ver=11795
+			F(DblID=10799, Dir='DV12241_S1562_V11795_F10799/')
+		$end 'DataMap'
 	$end 'Fields'
 $end 'SolutionBlock33'
 $begin 'SolutionBlock34'
@@ -280,6 +341,8 @@ $begin 'SolutionBlock34'
 	V=11795
 	$begin 'States'
 		F(VID=10695, Ver=11795)
+		F(VID=12217, Ver=11795)
+		F(VID=12241, Ver=11795)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -296,19 +359,25 @@ $begin 'SolutionBlock34'
 		$begin 'SubData'
 			ID=0
 			M(VID=10695, Ver=11795, File='DV10695_SOL1565_M0_V11795.sd')
+			M(VID=12217, Ver=11795, File='DV12217_SOL1565_M0_V11795.sd')
+			M(VID=12241, Ver=11795, File='DV12241_SOL1565_M0_V11795.sd')
 		$end 'SubData'
 	$end 'M'
 	$begin 'S'
 		$begin 'SubData'
 			ID=0
 			S(VID=10695, Ver=11795, Dir='DV10695_SOL1565_S0_V11795.sd/')
+			S(VID=12217, Ver=11795, Dir='DV12217_SOL1565_S0_V11795.sd/')
+			S(VID=12241, Ver=11795, Dir='DV12241_SOL1565_S0_V11795.sd/')
 		$end 'SubData'
 	$end 'S'
 	$begin 'TransientSolveStauts'
 		SS(VID=10695, Ver=11795, SS=1)
+		SS(VID=12217, Ver=11795, SS=1)
+		SS(VID=12241, Ver=11795, SS=1)
 	$end 'TransientSolveStauts'
 	$begin 'SolverUsage'
-		IDDblMap(10834, 1372500000, 10835, 457500000, 10838, 1143750000, 10839, 1207800000, 10840, 1326750000, 10905, 1331325000, 11081, 686250000, 11082, 800625000, 11083, 743437500, 11084, 1258125000, 11085, 1315312500, 11086, 1343906250, 11889, 1029375000, 11890, 972187500)
+		IDDblMap(10834, 1372500000, 10835, 457500000, 10838, 1143750000, 10839, 1207800000, 10840, 1326750000, 10905, 1331325000, 11081, 686250000, 11082, 800625000, 11083, 743437500, 11084, 1258125000, 11085, 1315312500, 11086, 1343906250, 11889, 1029375000, 11890, 972187500, 12240, 857812500)
 		$begin 'DataMap'
 			VID=10695
 			Ver=11795
@@ -322,6 +391,32 @@ $begin 'SolutionBlock34'
 			SU(DblID=11085, SU='DV10695_S1565_V11795_F11085_SU.txt')
 			SU(DblID=10834, SU='DV10695_S1565_V11795_F10834_SU.txt')
 		$end 'DataMap'
+		$begin 'DataMap'
+			VID=12217
+			Ver=11795
+			SU(DblID=10835, SU='DV12217_S1565_V11795_F10835_SU.txt')
+			SU(DblID=11081, SU='DV12217_S1565_V11795_F11081_SU.txt')
+			SU(DblID=11082, SU='DV12217_S1565_V11795_F11082_SU.txt')
+			SU(DblID=12240, SU='DV12217_S1565_V11795_F12240_SU.txt')
+			SU(DblID=11889, SU='DV12217_S1565_V11795_F11889_SU.txt')
+			SU(DblID=10838, SU='DV12217_S1565_V11795_F10838_SU.txt')
+			SU(DblID=11084, SU='DV12217_S1565_V11795_F11084_SU.txt')
+			SU(DblID=11085, SU='DV12217_S1565_V11795_F11085_SU.txt')
+			SU(DblID=10834, SU='DV12217_S1565_V11795_F10834_SU.txt')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=12241
+			Ver=11795
+			SU(DblID=10835, SU='DV12241_S1565_V11795_F10835_SU.txt')
+			SU(DblID=11081, SU='DV12241_S1565_V11795_F11081_SU.txt')
+			SU(DblID=11082, SU='DV12241_S1565_V11795_F11082_SU.txt')
+			SU(DblID=12240, SU='DV12241_S1565_V11795_F12240_SU.txt')
+			SU(DblID=11889, SU='DV12241_S1565_V11795_F11889_SU.txt')
+			SU(DblID=10838, SU='DV12241_S1565_V11795_F10838_SU.txt')
+			SU(DblID=11084, SU='DV12241_S1565_V11795_F11084_SU.txt')
+			SU(DblID=11085, SU='DV12241_S1565_V11795_F11085_SU.txt')
+			SU(DblID=10834, SU='DV12241_S1565_V11795_F10834_SU.txt')
+		$end 'DataMap'
 	$end 'SolverUsage'
 $end 'SolutionBlock34'
 $begin 'SolutionBlock31'
@@ -330,12 +425,16 @@ $begin 'SolutionBlock31'
 	VersionID=11664
 	$begin 'EmConvergenceData'
 		EmConv(VID=10695, Ver=11664, EmConv='DV10695_S1560_V11664.EMConvData')
+		EmConv(VID=12217, Ver=11664, EmConv='DV12217_S1560_V11664.EMConvData')
+		EmConv(VID=12241, Ver=11664, EmConv='DV12241_S1560_V11664.EMConvData')
 	$end 'EmConvergenceData'
 	IsImported=false
 	IsTable=false
 	SolveSetupID=1
 	$begin 'CurrMeshes'
 		M(VID=10695, Ver=11664, Dir='DV10695_S1560_V11664.cmesh/')
+		M(VID=12217, Ver=11664, Dir='DV12217_S1560_V11664.cmesh/')
+		M(VID=12241, Ver=11664, Dir='DV12241_S1560_V11664.cmesh/')
 	$end 'CurrMeshes'
 	MeshAssemVersionID=34
 	$begin 'NextAssemVersionID'
@@ -346,115 +445,210 @@ $begin 'SolutionBlock31'
 		$begin 'SubData'
 			ID=20
 			ADP(VID=10695, Ver=11664, Dir='DV10695_S1560_ADP20_V11664.sd/')
+			ADP(VID=12217, Ver=11664, Dir='DV12217_S1560_ADP20_V11664.sd/')
+			ADP(VID=12241, Ver=11664, Dir='DV12241_S1560_ADP20_V11664.sd/')
 		$end 'SubData'
 	$end 'ADP'
 	$begin 'SU'
 		$begin 'SubData'
 			ID=1
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD1_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD1_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD1_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=2
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD2_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD2_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD2_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=3
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD3_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD3_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD3_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=4
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD4_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD4_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD4_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=5
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD5_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD5_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD5_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=6
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD6_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD6_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD6_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=7
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD7_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD7_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD7_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=8
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD8_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD8_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD8_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=9
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD9_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD9_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD9_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=10
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD10_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD10_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD10_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=11
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD11_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD11_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD11_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=12
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD12_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD12_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD12_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=13
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD13_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD13_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD13_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=14
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD14_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD14_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD14_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=15
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD15_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD15_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD15_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=16
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD16_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD16_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD16_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=17
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD17_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD17_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD17_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=18
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD18_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD18_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD18_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=19
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD19_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD19_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD19_V11664.su')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=20
 			SU(VID=10695, Ver=11664, File='DV10695_S1560_SD20_V11664.su')
+			SU(VID=12217, Ver=11664, File='DV12217_S1560_SD20_V11664.su')
+			SU(VID=12241, Ver=11664, File='DV12241_S1560_SD20_V11664.su')
 		$end 'SubData'
 	$end 'SU'
 	$begin 'WaveAdapt'
 		WA(VID=10695, Ver=11664, A=1)
+		WA(VID=12217, Ver=11664, A=1)
+		WA(VID=12241, Ver=11664, A=1)
 	$end 'WaveAdapt'
 	$begin 'LastPassNumbers'
 		LP(VID=10695, Ver=11664, P=20)
+		LP(VID=12217, Ver=11664, P=20)
+		LP(VID=12241, Ver=11664, P=20)
 	$end 'LastPassNumbers'
 	$begin 'Profiles'
 		P(VID=10695, Ver=11664, File='DV10695_S1560_V11664.profile')
+		P(VID=12217, Ver=11664, File='DV12217_S1560_V11664.profile')
+		P(VID=12241, Ver=11664, File='DV12241_S1560_V11664.profile')
 	$end 'Profiles'
 	$begin 'MI'
 		$begin 'SubData'
 			ID=0
 			MI(VID=10695, Ver=11664, Dir='DV10695_S1560_MI0_V11664.sd/')
+			MI(VID=12217, Ver=11664, Dir='DV12217_S1560_MI0_V11664.sd/')
+			MI(VID=12241, Ver=11664, Dir='DV12241_S1560_MI0_V11664.sd/')
 		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock31'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=11664
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=12243
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.072999770199999994meter\' $Patch_Width=\'0.1024706764meter\' $Substrate_Length=\'0.109494912meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.11246602meter\' $X_Offset=\'0.022395418390000001meter\'', ID=10695)
+		Map(V='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.073145769799999996meter\' $Patch_Width=\'0.1016509084meter\' $Substrate_Length=\'0.102592352meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.10864217599999999meter\' $X_Offset=\'0.022395418390000001meter\'', ID=12241)
+		Map(V='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.073145769799999996meter\' $Patch_Width=\'0.1016509084meter\' $Substrate_Length=\'0.106867032meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.10864217599999999meter\' $X_Offset=\'0.022395418390000001meter\'', ID=12217)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=10695, Ver=11664, Dir='DV10695_V11664.imesh/')
+		M(VID=12217, Ver=11664, Dir='DV12217_V11664.imesh/')
+		M(VID=12241, Ver=11664, Dir='DV12241_V11664.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=34
+	$begin 'NextAssemVersionID'
+		NextUniqueID=35
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=33
+			VIDMap('$Patch_Length=\'0.072999770199999994meter\' $Patch_Width=\'0.1024706764meter\' $Substrate_Length=\'0.109494912meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.11246602meter\' $X_Offset=\'0.022395418390000001meter\'', 10794, '$Patch_Length=\'0.073145769799999996meter\' $Patch_Width=\'0.1016509084meter\' $Substrate_Length=\'0.102592352meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.10864217599999999meter\' $X_Offset=\'0.022395418390000001meter\'', 12242, '$Patch_Length=\'0.073145769799999996meter\' $Patch_Width=\'0.1016509084meter\' $Substrate_Length=\'0.106867032meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.10864217599999999meter\' $X_Offset=\'0.022395418390000001meter\'', 12218)
+			DM(VID=10794, Ver=33, Dir='NDV10794_V33.dmesh/')
+			DM(VID=12218, Ver=33, Dir='NDV12218_V33.dmesh/')
+			DM(VID=12242, Ver=33, Dir='NDV12242_V33.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=10695, Ver=11664, Dir='DV10695_MI0_V11664.sd/')
+			MI(VID=12217, Ver=11664, Dir='DV12217_MI0_V11664.sd/')
+			MI(VID=12241, Ver=11664, Dir='DV12241_MI0_V11664.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=0
+$end 'SolutionBlock1'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=1777, lin=38, lvl=0)
-		SolutionBlock32(pos=2295, lin=45, lvl=0)
-		SolutionBlock33(pos=7091, lin=228, lvl=0)
-		SolutionBlock34(pos=7916, lin=267, lvl=0)
-		SolutionBlock31(pos=14128, lin=317, lvl=0)
-		SolutionBlock1(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=26670, lin=588, lvl=0)
+		SolutionBlock32(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=10382, lin=266, lvl=0)
+		SolutionBlock33(pos=10900, lin=273, lvl=0)
+		SolutionBlock34(pos=12265, lin=328, lvl=0)
+		SolutionBlock31(pos=20073, lin=412, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=17357, lin=439, lvl=0)
+		$index$(pos=29573, lin=633, lvl=0)
 	$end '$index$'
 $end '$index$'

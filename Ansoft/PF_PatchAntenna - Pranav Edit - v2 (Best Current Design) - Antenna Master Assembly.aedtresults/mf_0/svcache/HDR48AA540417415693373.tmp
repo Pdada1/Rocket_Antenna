@@ -1,6 +1,6 @@
 SimValueCacheVersionID=1
 $begin 'SimValueInfos'
-	NextUniqueID=17
+	NextUniqueID=24
 	MoveBackwards=false
 	$begin 'SimValue'
 		ID=0
@@ -138,6 +138,62 @@ $begin 'SimValueInfos'
 			MatrixSize(0, 0)
 		$end 'SimValueParams'
 	$end 'SimValue'
+	$begin 'SimValue'
+		ID=17
+		$begin 'SimValueParams'
+			QuantityName='Yt(CoaxPin_T1,CoaxPin_T1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=18
+		$begin 'SimValueParams'
+			QuantityName='partial(Yt(CoaxPin_T1,CoaxPin_T1),$Patch_Length)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=19
+		$begin 'SimValueParams'
+			QuantityName='partial(Yt(CoaxPin_T1,CoaxPin_T1),$Patch_Width)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=20
+		$begin 'SimValueParams'
+			QuantityName='partial(Yt(CoaxPin_T1,CoaxPin_T1),$Substrate_Length)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=21
+		$begin 'SimValueParams'
+			QuantityName='partial(Yt(CoaxPin_T1,CoaxPin_T1),$Substrate_Thickness)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=22
+		$begin 'SimValueParams'
+			QuantityName='partial(Yt(CoaxPin_T1,CoaxPin_T1),$Substrate_Width)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=23
+		$begin 'SimValueParams'
+			QuantityName='partial(Yt(CoaxPin_T1,CoaxPin_T1),$X_Offset)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
 $end 'SimValueInfos'
 $begin 'SimValueCache'
 	$begin 'DesignMap'
@@ -156,8 +212,12 @@ $begin 'SimValueCache'
 					$begin 'MajorVVMap'
 						VersionID=11795
 						$begin 'MinorVVMap'
-							MajorVariation='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.072999770199999994meter\' $Patch_Width=\'0.1024706764meter\' $Substrate_Length=\'0.109494912meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.11246602meter\' $X_Offset=\'0.022395418390000001meter\' Freq=\'0.91500000000000004GHz\''
-							MinorCacheFile='min615C8380174165154811.tmp'
+							MajorVariation='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.073145769799999996meter\' $Patch_Width=\'0.1016509084meter\' $Substrate_Length=\'0.106867032meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.10864217599999999meter\' $X_Offset=\'0.022395418390000001meter\' Freq=\'0.91500000000000004GHz\''
+							MinorCacheFile='min349812836174182865746.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.073145769799999996meter\' $Patch_Width=\'0.1016509084meter\' $Substrate_Length=\'0.102592352meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.10864217599999999meter\' $X_Offset=\'0.022395418390000001meter\' Freq=\'0.91500000000000004GHz\''
+							MinorCacheFile='min412B12836174182964374.tmp'
 						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
@@ -167,13 +227,34 @@ $begin 'SimValueCache'
 				$begin 'VersionMap'
 					$begin 'ReportTypeSolnDef'
 						ReportType=1
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'Deriv', false, '1')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=11795
+						$begin 'MinorVVMap'
+							MajorVariation='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.073145769799999996meter\' $Patch_Width=\'0.1016509084meter\' $Substrate_Length=\'0.106867032meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.10864217599999999meter\' $X_Offset=\'0.022395418390000001meter\''
+							MinorCacheFile='min349812836174182865747.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.073145769799999996meter\' $Patch_Width=\'0.1016509084meter\' $Substrate_Length=\'0.102592352meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.10864217599999999meter\' $X_Offset=\'0.022395418390000001meter\''
+							MinorCacheFile='min412B12836174182964375.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=1
 						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'Deriv', false, '0')
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
 						VersionID=11795
 						$begin 'MinorVVMap'
-							MajorVariation='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.072999770199999994meter\' $Patch_Width=\'0.1024706764meter\' $Substrate_Length=\'0.109494912meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.11246602meter\' $X_Offset=\'0.022395418390000001meter\''
-							MinorCacheFile='min615C8380174165154812.tmp'
+							MajorVariation='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.073145769799999996meter\' $Patch_Width=\'0.1016509084meter\' $Substrate_Length=\'0.106867032meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.10864217599999999meter\' $X_Offset=\'0.022395418390000001meter\''
+							MinorCacheFile='min349812836174182865748.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$Antenna_Offset=\'-2.7999999999999998in\' $Patch_Length=\'0.073145769799999996meter\' $Patch_Width=\'0.1016509084meter\' $Substrate_Length=\'0.102592352meter\' $Substrate_Thickness=\'0.0060000000000000001meter\' $Substrate_Width=\'0.10864217599999999meter\' $X_Offset=\'0.022395418390000001meter\''
+							MinorCacheFile='min412B12836174182964376.tmp'
 						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
