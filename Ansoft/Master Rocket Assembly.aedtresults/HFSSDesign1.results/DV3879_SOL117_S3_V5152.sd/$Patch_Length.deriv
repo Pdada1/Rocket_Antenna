@@ -1,0 +1,159 @@
+$begin 'soln'
+	ObjectType='Terminal'
+	SolutionType='None'
+	MajorVersion=2
+	MinorVersion=0
+	Producer='hf3d::hf_SensitivityMgr::ExportSensitivityFiles'
+	Name=''
+	AdaptivePass=-1
+	AllowMixedMode=false
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=915000000
+			DataType='None'
+			$begin 'SMatrix'
+				$begin 'FullMatrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(-206.1113044496172, 157.7166660283363)
+						c(24.67214050906226, -9.785584165273182)
+					$end 'r0'
+					$begin 'r1'
+						c(24.6721405090654, -9.785584165272974)
+						c(-121.6182407975556, 176.4462849942132)
+					$end 'r1'
+				$end 'FullMatrix'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'PortImpedance'
+				MatrixSize=2
+				NumberOfBlocks=2
+				Block0_Size=1
+				$begin 'Block0'
+					$begin 'FullMatrix'
+						m=1
+						n=1
+						$begin 'r0'
+							c(1.892885676096479e-16, 9.464630473256411e-20)
+						$end 'r0'
+					$end 'FullMatrix'
+				$end 'Block0'
+				Block1_Size=1
+				$begin 'Block1'
+					$begin 'FullMatrix'
+						m=1
+						n=1
+						$begin 'r0'
+							c(1.900476635946673e-17, 9.502618472919262e-21)
+						$end 'r0'
+					$end 'FullMatrix'
+				$end 'Block1'
+			$end 'PortImpedance'
+			$begin 'Gamma'
+				MatrixSize=2
+				NumberOfBlocks=2
+				Block0_Size=1
+				$begin 'Block0'
+					$begin 'FullMatrix'
+						m=1
+						n=1
+						$begin 'r0'
+							c(0, 0)
+						$end 'r0'
+					$end 'FullMatrix'
+				$end 'Block0'
+				Block1_Size=1
+				$begin 'Block1'
+					$begin 'FullMatrix'
+						m=1
+						n=1
+						$begin 'r0'
+							c(0, 0)
+						$end 'r0'
+					$end 'FullMatrix'
+				$end 'Block1'
+			$end 'Gamma'
+			$begin 'ExtraHfssData'
+				$begin 'Zpi'
+					n=2
+					$begin 'r0'
+						c(-1.558215990539735e-07, -7.791078004942327e-11)
+						c(-5.036916656068099e-08, -2.518457698257312e-11)
+					$end 'r0'
+				$end 'Zpi'
+				$begin 'Zwave'
+					n=2
+					$begin 'r0'
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+				$end 'Zwave'
+				$begin 'TerminalTMatrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(-1.945705935853041e-08, -4.864368401644879e-12)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(-6.165187352761209e-09, -1.541334906661566e-12)
+					$end 'r1'
+				$end 'TerminalTMatrix'
+				$begin 'TerminalPMatrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(9.926167350636332e-24, -1.829612039455059e-23)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(-5.169878828456423e-24, -3.311085246395429e-23)
+					$end 'r1'
+				$end 'TerminalPMatrix'
+				$begin 'TerminalRMatrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(0, 0)
+						c(0, 0)
+					$end 'r0'
+					$begin 'r1'
+						c(0, 0)
+						c(0, 0)
+					$end 'r1'
+				$end 'TerminalRMatrix'
+			$end 'ExtraHfssData'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'Ports'
+		Port(ModalEntryName='P1', TerminalEntryName='P1', PortName='P1', Mode=0, ModeName='', TerminalName='CoaxPin_T1', ParameterName='CoaxPin_T1', MatrixIndex=0, PortType=0, IsPassive=false, PreferredImpedance=524288)
+		Port(ModalEntryName='P2', TerminalEntryName='P2', PortName='P2', Mode=0, ModeName='', TerminalName='CoaxPin_T2', ParameterName='CoaxPin_T2', MatrixIndex=1, PortType=0, IsPassive=true, PreferredImpedance=524288)
+	$end 'Ports'
+	$begin 'OtherStateSpaceModels'
+	$end 'OtherStateSpaceModels'
+	MultiTerminal=false
+	PortNames('P1', 'P2')
+	PortModes(1, 1)
+	PortTerminals('CoaxPin_T1', 'CoaxPin_T2')
+	$begin 'Postprocessing'
+		NumPorts=2
+		MatrixSize=2
+		IsModal=false
+		DoRenorm=false
+		DoDeembed=false
+		UseZpiOnly=true
+		LosslessDeembed=true
+		ImpedMultiplier=1
+		Modes(1, 1)
+		DoPortRenorm(false, false)
+		PortCharImpeds('Zpi', 'Zpi')
+		FoundFreqDependentRenorm=false
+	$end 'Postprocessing'
+	ModalData=true
+	PreferredImpedance='Zpi'
+	IeEnergyError=0
+$end 'soln'
